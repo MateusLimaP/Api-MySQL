@@ -1,3 +1,8 @@
 npm init -y
 npm install express mysql dotenv cors body-parser
 npm install nodemon --save-dev
+
+CREATE TABLE api_keys (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    api_key VARCHAR(255) NOT NULL
+);
